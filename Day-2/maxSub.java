@@ -1,5 +1,5 @@
 import java.util.*;
-import java.lang.*;
+
 
 public class maxSub {
     public static int maxSubArray(int[] nums){
@@ -19,6 +19,6 @@ public class maxSub {
             nums[i]=sc.nextInt();
         }
         System.out.println(maxSubArray(nums));
-
+        sc.close();
     }
 }
