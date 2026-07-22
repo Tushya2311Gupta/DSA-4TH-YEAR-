@@ -27,5 +27,7 @@ public class LongestCommonSubsequence {
         System.out.print("Enter second string: ");
         String str2 = sc.nextLine();
         System.out.println("Longest Common Subsequence length: " + lcs(str1, str2));
+
+        sc.close();
     }
 }

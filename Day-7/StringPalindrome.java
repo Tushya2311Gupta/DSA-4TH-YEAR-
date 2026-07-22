@@ -84,5 +84,7 @@ public class StringPalindrome {
             isPalindromeReversal(largeString);
         }
         System.out.println("Reversal Approach: " + (System.currentTimeMillis() - start) + "ms");
+
+        sc.close();
     }
 }

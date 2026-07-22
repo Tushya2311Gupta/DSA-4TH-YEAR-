@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Candy {
+public class candy {
     
     static class Solution {
         public static String Reduced_String(int k, String s) {

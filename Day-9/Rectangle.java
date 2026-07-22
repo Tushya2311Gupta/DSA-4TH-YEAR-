@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Stack;
 
-public class maximalRectangle {
+public class Rectangle {
     
     public static int maximalRectangle(int[][] matrix) {
         if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
@@ -52,11 +52,7 @@ public class maximalRectangle {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        
-        // Ensure there is input to read
-        if (!sc.hasNextInt()) return;
-        
+        Scanner sc = new Scanner(System.in);        
         int n = sc.nextInt();
         int m = sc.nextInt();
         int[][] matrix = new int[n][m];
