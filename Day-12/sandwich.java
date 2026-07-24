@@ -26,14 +26,11 @@ public class sandwich {
             }
         }
     }
-    
-
     return circleCount + squareCount;
     }
 
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
-
         System.out.print("Enter number of students: ");
         int n = sc.nextInt();
         int[] students = new int[n];
@@ -41,7 +38,6 @@ public class sandwich {
         for (int i = 0; i < n; i++) {
             students[i] = sc.nextInt();
         }
-
         System.out.print("Enter number of sandwiches: ");
         int m = sc.nextInt();
         int[] sandwiches = new int[m];
@@ -49,7 +45,6 @@ public class sandwich {
         for (int i = 0; i < m; i++) {
             sandwiches[i] = sc.nextInt();
         }
-
         sc.close();
         int result = countStudents(students, sandwiches);
         System.out.println("Students unable to eat: " + result);
